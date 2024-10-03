@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMj1B7eYStjBl6c90ctfT7E+6XAcYy4D5EOQ6M" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .dark-mode {
+            background-color: #1b2732;
+            color: white;
+        }
+
+        /* Header Styling */
+        .header {
+            background: linear-gradient(to right, #1b2732, #c33764);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            animation: slideIn 1s ease forwards;
+            position: relative;
+            border-bottom: 5px solid #50c878;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .header p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .telegram-icon {
+            width: 25px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Dark Mode Button */
+        .dark-mode-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 24px;
+            transition: transform 0.3s;
+        }
+
+        .dark-mode-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        /* Available Courses Section */
+        .available-courses {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5em;
+            color: #1b2732;
+            animation: bounceIn 1s ease forwards;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Course List Styling */
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Single Course Card */
+        .course {
+            background-color: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .dark-mode .course {
+            background-color: #2d2d2d;
+            color: white;
+        }
+
+        /* On hover, elevate the course card */
+        .course:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .course img {
+            max-width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Image Zoom Effect */
+        .course:hover img {
+            transform: scale(1.05);
+        }
+
+        .course-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #c33764; /* Color for course titles */
+            margin: 10px 0;
+            text-transform: uppercase; /* Make course titles stand out */
+            letter-spacing: 1px;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        /* Animated View Course Button */
+        .course-link {
+            background-color: #50c878;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        /* Button Animation */
+        .course-link:hover {
+            background-color: #45b76a;
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #1b2732;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        .footer a {
+            color: #50c878;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 1024px) {
+            .course {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .course {
+                width: 80%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .course {
+                width: 95%;
+                margin: 15px;
+            }
+
+            .course-link {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Available Notes</h1>
+        <p>
+            <a href="https://t.me/MhcetHSCCoursesNotesFree" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram Logo" class="telegram-icon">
+            </a>
+            Join our Telegram channel for updates!
+        </p>
+        <button class="dark-mode-toggle" id="dark-mode-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <div class="available-courses">
+        <p>Explore our range of Notes And Study Material to enhance your learning experience.</p>
+    </div>
+
+    <div class="course-list">
+        <!-- Course 1 -->
+        <div class="course">
+            <img src="https://ali-cdn-wl-assets.classplus.co/production/single/xptuz/04236f4b-7480-4c97-92d5-38ecaf2e7d0f.png" alt="Course 1 Thumbnail">
+            <p class="course-title">New Indian Era</p>
+            <a href="FocusBatchNotes.html" class="course-link">View Notes</a>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course">
+            <img src="https://cdn-wl-assets.classplus.co/production/single/jipyw/d8c6786c-86da-43ea-a8ea-d359b33b894a.png" alt="Course 2 Thumbnail">
+            <p class="course-title">English Pro</p>
+            <a href="EnglishNotes.html" class="course-link">View Notes</a>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course">
+            <img src="https://courses-assets-v2.classplus.co/_next/image?url=/api/proxyimage?url=https%3A%2F%2Fali-cdn-wl-assets.classplus.co%2Fproduction%2Fsingle%2Fjsdrv%2Ff162868f-1c67-4919-8d4b-22c801c010cf.png&w=640&q=75" alt="Course 3 Thumbnail">
+            <p class="course-title">Shaurya+</p>
+            <a href="MathNotes.html" class="course-link">View Notes</a>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="course">
+            <img src="https://envs.sh/WoG.jpg" alt="Course 4 Thumbnail">
+            <p class="course-title">Chemistry+</p>
+            <a href="ChemistryBatch+.html" class="course-link">View Notes</a>
+        </div>
+        <!-- Course 5-->
+        <div class="course">
+            <img src="https://courses-assets-v2.classplus.co/_next/image?url=/api/proxyimage?url=https%3A%2F%2Fali-cdn-wl-assets.classplus.co%2Fproduction%2Fsingle%2Fjsdrv%2Fdf706961-53c6-4cb0-8191-470e930ff0b3.png&w=640&q=75" alt="Course 4 Thumbnail">
+            <p class="course-title">MATHS FORMULA EBOOOK(PDF ONLY)</p>
+            <a href="EBOOK.html" class="course-link">View Notes</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 All Rights Reserved</p>
+        <p>
+            Follow us on 
+            <a href="https://t.me/MhcetHSCCoursesNotesFree" target="_blank">Telegram</a>
+        </p>
+    </div>
+
+    <script>
+        // Dark mode toggle
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            darkModeToggle.innerHTML = document.body.classList.contains('dark-mode') ? 
+                '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        });
+    </script>
+</body>
+</html>
