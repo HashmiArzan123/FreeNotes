@@ -1,0 +1,2274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaurya 3.0</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://graph.org/file/ae815aa020fadce87972e.png" rel="icon" type="image/x-icon">
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #50c878;
+            --background-color: #f4f4f460;
+            --text-color: #333;
+            --header-color: #1b2732;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .dark-mode {
+            --primary-color: #64b5f6;
+            --secondary-color: #81c784;
+            --background-color: #1a1a1a;
+            --text-color: #f4f4f4;
+            --header-color: #34495e;
+        }
+        .header {
+            background-color: var(--header-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .video, .pdf {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .video_name, .pdf_name {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--header-color);
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 5px;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #45b76a;
+        }
+        .collapsible {
+            background-color: var(--primary-color);
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .active, .collapsible:hover {
+            background-color: #0056b3;
+        }
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+        #dark-mode-toggle {
+            margin-bottom: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        #dark-mode-toggle:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><i class="fas fa-graduation-cap"></i> Shaurya 3.0</h1>
+        <p>✳️ All about chemistry ✳️</p>
+        <p>Made by <a href="https://telegram.me/Blaster_fazxe" target="_blank"
+                style="color: var(--secondary-color);">Anonymous</a></p>
+        <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+    </div>
+    <div class="container">
+        
+        <button type="button" class="collapsible">(Homepage)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(LECTURE SCHEDULE)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(LECTURE SCHEDULE) TIME TABLE.pdf PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/9e4151cb-ef43-4d34-835d-04312258e5ba.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(LIVE LECTURE PDF NOTES)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(LIVE LECTURE PDF NOTES) L-1 Basic of Organic Chemistry.pdf PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/75d136c3-a5a6-4497-a2e7-c3e9f893d790.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(LIVE LECTURE PDF NOTES) L-2 Basic of Organic Chemistry.pdf PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/7de1726d-a79e-44dc-ab62-4bab2f2363d8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(CHEMISTRY I)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-1 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c5cfe83e-40d5-46ad-b43b-7ffb9ee6d254.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-2 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/be90328b-170a-4961-80ae-28131657a59d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-3 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/da0d311e-5432-4fdf-8739-981119f6c91d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-4 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/7073bd25-793c-43ae-a395-2c1181571e80.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-6 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/03d43cc5-ef6d-4726-9ca2-d65bb5558f3c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-5 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b896c9f4-f689-4a9b-93f2-ebac911c1d66.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-7 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/5c470f91-c379-49a1-8596-2173339d17b3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-8 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/d353b9aa-e122-4eca-b369-6cf6dad5423a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-9 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/9cb8a33b-0a2b-4870-869d-958abf332b71.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-10 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/4f4f9bd7-ea54-476c-a3bc-0d1a59cef423.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-11 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/ad6e1b31-cb2b-4b49-a280-5af253d5ad88.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-12 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/a3549ce1-5b6f-4eea-a209-f3dd8a07670a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-13 CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/558a1b9e-6bcd-4e05-8f23-3dae38ea5854.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-1 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c0bac024-376c-4e23-8835-9c4b532383d2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-2 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/281598d1-f72f-4d2b-8657-da613720ea37.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-3 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c2ee0bbd-70ac-4fce-97a7-41f2bb8d816d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-4 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/eb5b8b09-9e9d-4b6e-a52f-b51d28050679.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-5 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/81e69a47-a57e-40d7-85d6-73c5abb9dc82.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-6 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/91523f2c-6eb6-41a6-9241-9d2982d75bda.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-7 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/90eafeee-6cdd-486a-baee-742a947fa323.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L-8 CHAPTER - 4 - CHEMICAL THERMODYNAMICS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1b6d888f-3215-4adf-bc9f-8b89d9fbfff7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 1 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c5cb20c6-2435-4997-94ca-ecc4b42e2b1c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 2 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/5b65b75b-1816-4079-adff-a2b3d6b0a39c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 3 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1f7664b6-3be8-4fec-a53d-b9f7be1e11cc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 4 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/53a46eb9-33b6-41da-b3d6-ef776965e2ad.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 5 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/a4f63738-ac40-490d-a5ed-cccad3fef249.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 6 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/5fbeb5fd-6796-4541-a58f-5e17681b63fb.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 7 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/36e2ada3-38b0-46d2-b4d0-cfac77872535.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 8 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/eec06a8d-8638-42c6-bbe9-ae02644963e8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 9 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c7cba455-6a8b-4973-9e1c-508d976e684f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 10 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/29304fc1-4e84-4adb-95ad-cb5988652205.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 11 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/8abd1a89-63b6-48d5-b509-8b29ae47e530.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 12 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/dec34369-a90d-493e-b076-d006cd0a5369.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 13 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/f1cb2656-81cf-4914-be03-81975e5b2c19.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) L - 14 - CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/0c965343-7d57-4d0c-b688-cca14b330628.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 1 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2a518aa6-7a68-42c8-89b2-07398b9c8574.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 2 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d8950f53-5dd2-41d5-9c01-bbd6ff45df90.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 3 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/87a301c2-f729-45ec-abcb-44112e374056.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 4 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/1edee069-2492-485d-b9d5-109bbe4541dd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 5 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/92405eb6-f6c0-444f-87ed-7d47322adcdf.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 6 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2968056b-20bb-4e53-933b-2261ea1f0cf2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 7 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/f1247b78-442c-44fb-9018-9e9117e2a634.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 8 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/1739797f-96d6-4b22-89fa-c102eecb3f90.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY I) CHAPTER 9 IMP PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/1a1d74dc-b3fb-4b03-b23a-458bc1fc7ea3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(CHEMISTRY II)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 1 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf. PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/fad68837-0762-40df-82f3-5e7f6adbeda2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 2 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/b1ec8b4e-3183-4cd1-ae12-c85b1f0a6f33.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 3 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/95ceb634-c0d6-4598-8465-6c4a831e9228.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 4 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/6b10ff9d-9b0d-4926-95f1-bfda0d0d2ac0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 5 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/f04374de-8c88-4727-927c-748f24a89546.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 6 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/55021515-0608-4ebe-86ce-b5b55b52438f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 7 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/a906d846-132d-4496-a42d-3070a9fc9b1b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 8 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/fcb5838e-ab25-4150-953c-59d27998aaa5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 9 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/80e14db1-df5a-4b64-86f5-95e914d03643.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 10 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b9b20686-9966-453f-bb9c-8503707eb601.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 11 - CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/f0877416-9e56-4c9b-bb90-de1d4d14137f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 1 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b5ced1b2-2086-434e-8c2a-be78fbdabcb5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 2 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/0bf7f4de-f93c-489d-b936-fe3170ddf35c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L-3 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/02a9b2d3-83b3-48e8-abaf-5e5db51ad55f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 4 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3fc9008f-3cfd-454b-ba31-94e1f25596e1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 5 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/081e3a0b-6e50-492a-841d-a6667d6141a0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 6 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1b0d9d87-3e73-4068-93a3-d086d51d03f2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 7 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3ceb8a34-1b56-4cdf-9b09-90ac9b372a05.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 8 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/4b120c76-37b1-4c66-b159-64b07a6dc7d1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 9 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/5f89c030-35e9-49f5-bbcd-67eac035a086.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 10 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/61a42f7d-e330-4a08-b3cf-b615566c030a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 11 - CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3f4f5281-ab3c-42fe-b610-dc422476fc17.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 1 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/e21f9263-b5f8-4d43-98b0-8df20541df2b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 2 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/dfac2a0d-608b-44db-86be-afa2cd3f5495.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 3 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/343193b6-7d09-4975-bd58-2ff3c3f876e4.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 4 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b729f5ee-c2ca-4968-9760-91d78b3d098c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 5 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1389b1fe-ebb0-451e-89c2-43e0d53c6fe1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 6 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/6ae0df54-cb3c-4055-8a50-e36ec11a7f1a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 7 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c3f1e4ed-8619-496e-8297-6093747bdd58.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 8 - CHAPTER - 14 Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/028e4b3f-4ae2-4056-bf9c-24460325bf3a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 1 - CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/ac7ec7d8-c0c7-4f5d-96cf-f0b32b92d865.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 2 - CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/e39e8b28-b8b4-4477-b03f-1c89ea2d96cf.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 3 - CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/74bbc938-d57e-42ae-913a-b01aac8890b8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 4 - CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/8d8a3725-d92e-40eb-90f0-ed7fcf2377ad.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 5 - CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/afc0568a-4f3b-420a-a4ee-ce80e8dc39da.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) L - 6 - CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/cf95e61e-a24b-4422-b40c-46e001e66683.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 10 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/387d638f-28fd-4bf8-81fe-0b79e3224331.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 11 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/6ba4d8b3-7760-4ded-8a99-2278a533d7e3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 12 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a88a5ad1-938b-471f-a7cc-c2374550cca1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 13 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/112a11b4-75e6-44a5-b641-fe85916926f3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 14 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/86eb1724-f223-440c-b691-789f7d04892d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 15 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/69052333-421b-4dbb-b6e8-140b35464af4.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(CHEMISTRY II) CHAPTER 16 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7f0c50e0-d288-4c2b-ad9a-41b26232a6e2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(LIVE LECTURE VIDEO)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(COMBINED LECTURE PDF)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER - 2 - SOLUTIONS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/337e12fa-0958-4fd8-8b7e-ec1cb5a6c5c3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER - 5 - ELECTROCHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/a4c4b492-c6f9-49f3-a9af-ff9ca421e3b1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER - 10 - HALOGEN DERIVATIVES.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/f4c76e92-4367-4346-ba12-157d57f27e06.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER - 11 - Alcohols, Phenols and Ethers.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3c1a8232-3c2f-40f8-b9f0-1a3357f81106.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER - 14 - Biomolecules.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/632685fd-934c-4572-96e3-5b5718b37b67.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER - 15 - INTRODUCTION TO POLYMER CHEMISTRY.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/44b126f7-f319-48b2-82ea-9e1498dde173.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 1 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8696c943-c351-4bde-ba28-57bfbd3ba4b5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 2 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/e775a19e-222c-4a8f-bacd-0744ca8f49af.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 3 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7496c26a-9e64-4673-8028-ab1346b1da4e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 4 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/afea437f-0553-4b89-a33b-2083bf0228de.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 5 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/41dfb093-9d8f-4819-836a-50fd123f9ccf.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 6 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/81179e33-1805-4dd5-b309-5db084a4dfd8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 7 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/1eacb05f-b40e-446b-a1c1-6a04ff587077.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 8 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d562150a-f0ff-43a5-86f8-43cbd9e76ebc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 9 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/505608d2-0207-4882-bb5a-c19443a738c5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 10 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/4214ad0b-39ef-4fe3-8274-7e4c7656b359.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 11 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/21c6b423-8e1c-4be0-8acc-3efaeb74a82f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 12 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a0181257-5ef1-4a44-b09e-1f2116ac9d1d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 13 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/db3fb143-7a19-4b4c-827b-f4eb0f149daa.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 14 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/cb4de4df-7ad0-488c-984e-8cd24196a972.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 15 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/3459f3e5-29d8-447e-8283-19180e528f53.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(COMBINED LECTURE PDF) CHAPTER NO. 16 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d5fc707a-24f1-4a85-927b-f0faa17f21aa.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(FORMULA SHEET)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 1.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/670b2c1d-48ad-468d-b188-87d2cf4d12fc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 2.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/227f1fa5-075e-46fb-a737-efef399be557.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 3.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/7b46f835-321b-458a-8ea4-3e8d60435fe6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 4.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/ee43370e-ff78-4ffc-a7ab-7d28cf0925e5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 5.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/7d9856b2-eaf6-4602-8e13-d0f363bf7f89.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 6.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/0e949379-9106-43bc-b25a-193fd409b26a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 7.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/8b7e0c26-564e-4865-b0dc-70700a84d9b6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 8.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/dcc11c83-597c-47e9-991a-7e018819e948.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 9.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/60d3cc73-a2c8-485c-b5dc-53371db25ba1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 1.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/ab7fd721-5069-4616-8457-47c7b34dd4fe.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 2.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/2a1eee4b-4ccc-4206-8983-8362b1854bd0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 3.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1eefd134-c921-453a-a366-7981f3d5bd84.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 4.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/277fd307-ab5c-4bdf-91ee-e286588650d7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 5.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c6bdf040-c83d-472b-b11a-c05e797a7472.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 6.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/6bc44506-61b3-46ec-a3bc-3e8e22373556.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 7.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c1f6666b-0e4d-4908-8b81-c72576812e47.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 8.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/a1fa3965-f9cc-4dc0-96e4-bf1f11fa5c2b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 9.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/512bf07e-c7ea-4636-a602-97b457ae8da8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 10.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/f9a286e3-fe56-4d59-92eb-f6f2c71ad86d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 11.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b466c07d-eb04-4559-b63a-f8b6dc11d6fd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 12.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/568a9d58-37aa-46aa-a878-2fec059b00f1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 13.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/174a6367-2a59-4fdf-981a-be9078bf90e9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 14.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c45c91ac-448d-4602-866f-4574c2e36435.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 15.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/9198aa08-75d6-4299-9c9f-4e4b8b322c54.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CHAPTER - 16.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/009fcf1e-f344-4ebb-b77a-9c94eb21a21f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CLASS 12TH FORMULA CHAPTER- 1, 2 & 3 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/faa85fa3-2b9b-410f-baa5-c45b53923c63.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CLASS 12TH FORMULA CHAPTER- 4, 5 & 6 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8198f82f-addd-44f0-9ed9-7b36ff6e7bfc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(FORMULA SHEET) CLASS 12TH  ORGANIC CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/9e8b1833-a628-49de-8f5b-647fa6e4c2ad.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(DPP)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 1 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/64056cf9-175f-4685-9976-5dce2023473f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 2 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/875921f9-d6ed-4865-9b0b-9c5cebafd0ac.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 2 CHAPTER 2 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/4b581a5c-33f9-4291-af15-f74e56fe557c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 3 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/b4e87ff5-d06a-49b1-ab39-77d42715ed14.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 4 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/f7476576-6a75-4898-89e0-f36635e1e835.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) CLASS 12TH DPP 1 CHAPTER 5.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/ecbc4d38-807f-4f3e-8f52-d75c78062ea1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) CLASS 12TH DPP 2 CHAPTER 5.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/4989bcf3-6185-4193-9f52-02b825c0696f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 6 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1ada4175-ae4c-4925-9e1f-57ea14e16276.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 7 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/1669b5b9-937d-4e36-b421-77dd927a50e1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 8 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b379fb7c-550d-426a-87b8-3c03120eba67.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 9 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/e8d3cc3f-333b-424f-bf3f-ef07c7ab11bd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 10 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/d2388031-cd98-45b3-8a95-e1460d8439d2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 2 CHAPTER 10 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/6be41753-f47b-4b89-ac6d-f372a9d15d88.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 11 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/2d291a86-2e09-4935-9c7f-7263d8ee4ba9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 2 CHAPTER 11 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/eaa893b5-b3c0-46ce-aca1-e85c321feb27.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 12 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/c5660aa1-c172-4306-9fa6-a94a3cefdba7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 13 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3814b25a-7118-4c73-b52e-538164031fac.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 14 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/cb79aab6-3c98-4f28-9f53-dc901d373008.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 2 CHAPTER 14 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b2be2e3b-938e-458a-835b-26e90c552e30.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 15 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/aaddb64e-2570-44e7-9a68-daea698e7460.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 2 CHAPTER 15 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/cb9e16c0-c31c-449d-8001-f66dd4981e42.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP) DPP 1 CHAPTER 16 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/d4db0876-2803-4352-a03c-1ddb59673bf2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(DPP SOLUTIONS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 1 SOLUTION CHAPTER 10 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/016f3983-ebba-45e0-a77d-f30d1d7d4b7a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 2 SOLUTION CHAPTER 10 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/290be1dc-b6f6-4ab0-bbf5-4816b770f904.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 1 SOLUTION CHAPTER 11 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/6a7ae26a-c85e-4e09-824a-e8e24e1ccee1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 2 SOLUTION CHAPTER 11 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/9bc8dd71-6fa2-4955-b447-6538606067d1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 1 SOLUTION-CHAPTER-14 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/67e90fb6-c6ca-4a22-9e27-675a3dc5870e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 2 SOLUTION-CHAPTER-14 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/2b97b2a9-0074-469c-bfab-6bc031d5f35a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 1 Solution CHP-15 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/310b7af7-60d7-4b56-bb82-68adddc28566.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 2 Solution CHP-15 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/6ec0b63b-2026-4d75-ae0d-497441ca61f7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 1 CH 2 2025 solution.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/b47c40de-ec3c-474b-aafc-ecb4b8d45b65.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 2 CH 2 2025 solution.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/13536d87-5974-42f7-ba16-26c23faebbc1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 1 chap no.5 solution.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/5902708e-f133-450d-8455-5b483d3fd44f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DPP SOLUTIONS) DPP 2 chap no 5 Solution.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/ddab8dac-fa9d-4e66-87dc-bbd244827f9d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 1 SOLID STATES)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 2 SOLUTIONS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER -3 IONIC EQUILIBRIA)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 4  CHEMICAL THERMODYNAMICS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 5. ELECTROCHEMISTRY)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER -6 CHEMICAL KINETICS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 7 ELEMENTS OF GROUP 16, 17 & 18)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER-8 - TRANSITION AND INNER TRANSITION ELEMEN)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 9  COORDINATION COMPOUNDS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER-10 HALOGEN DERIVATIVES)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">( CHAPTER -11 ALCOHOLS,PHENOL AND ETHERS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER-12 ALDEHAYDES, KETONES AND CARBOXYLIC ACID)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER-13 -  AMINES)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 14 - BIOMOLECULES)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(CHAPTER - 15. INTRODUCTION TO POLYMER CHEMISTRY)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(DETAILED VIDEO LECTURE - SHAURYA 2.0)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/65262e4c-e3e2-441f-ba14-ba784bb80970.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/3fd94d74-3405-4af4-9762-baafe835410c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/aefbf3a7-61cd-4d29-a35c-17381a024c54.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b7179691-ae1c-4f2e-ba4f-771b655d1c6f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/15a113bd-2197-4bb6-99ac-fe018caf6773.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-6 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/bd364234-473a-4b37-8ba4-79f7c7383fd9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-7 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d71e9ec8-072f-4616-9e36-a5e233ecbd58.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/de749332-f02e-4793-b19b-efdcb2c36d63.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8ce9fb3e-32a0-46b4-a0d9-4146c457edcc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/60ec6c08-6cf9-44f7-902e-65cc3dbcf99d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/47ec0aec-59cf-4f39-a9b4-800c384b480e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8af2276d-0915-4f1f-9d5d-4ef10f47baa3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-6 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7e650630-d19c-41b3-8b15-4c2196d786bb.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-7 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a0ae5188-61de-4425-a1da-5b813ebb2cd6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-8 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/24359c65-9fa4-4063-91c2-5e2b2686159c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-9 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/489daf7c-1bcb-41ca-8442-6f27aee6332f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-1- SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/6966decc-92de-4036-8445-dc351902e156.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-2 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/d20aa3ea-fadf-42dd-86c6-9a358f70164d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-3 - SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/c3729aef-77a5-4263-958f-cab3400e7242.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-4 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/59855147-7ca7-4ff8-b1bd-245c3076f508.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-5 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/54774192-b7ee-49d1-a6a4-c6142485a3dc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-6 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/5e85830f-96df-47b9-9405-96632c7ea973.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-7 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/3ebf23d0-1d12-49de-8321-8be6f01bb81a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -3  L-8 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/f2e14885-d6f2-4db2-9f31-793e2a679046.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/674d38d4-d046-4b58-b244-9abfe68a1f55.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8b1028fa-808d-4dd9-963c-2c15a96d8a9d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/32f0e9d3-999f-47fa-9216-05c185716d3b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/c94ecca0-2d93-49f4-b888-a8378a3ebb34.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/450b345f-5c36-4a37-b447-6a6c2bea13f7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-6 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/6405e801-1afe-40c6-a424-b4654f7d30a9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-7 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/309f3cfa-0e7f-496f-bafc-c0184916553f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-8 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/0f39419a-cea5-4006-9917-e2e7cacdbcd9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-9 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/f0abd785-fca8-4614-82fd-34ea9ff09cab.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-1 - SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/aa3698a4-554b-4209-ad03-db6ec95a68c5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-2 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/26f79b09-aa88-486f-a896-6baf4bdee556.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-3 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/7dce270e-7dfe-4e64-be2b-499c636d5fa8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-4 - SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/d08c27cb-0ec4-417e-85c5-7ac75ba0a9f8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-5 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/8152f80e-1bdc-442b-9099-e9b43bb6211a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-6 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/4e799938-de49-4599-8425-64d95370a953.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-7 SHAURYA PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/b9180c25-f238-4f88-931c-9c5bb9f0eec5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 6  L-8 SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8757b860-6400-4d33-9fbf-b85fd04025e1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 ELEMENTS OF GROUP 16,17 and 18 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b03f8921-39c3-4ed7-86fb-e1ca1eecf73a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 ELEMENTS OF GROUP 16,17 and 18 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/054c7103-f0f5-43d8-be3c-f1d72d3a7cc0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 ELEMENTS OF GROUP 16,17 and 18 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8e2a47d3-46b8-48ae-a0dd-c0d9f588dbdb.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 ELEMENTS OF GROUP 16, 17 and 18 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/e8c7c9c9-f64e-430e-be73-c37a5bd3c29d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/71db25f0-fb7a-41b5-9017-5a9d4407925b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/c46cb36b-5b26-4eb1-ab8a-723389dadd8e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/cce5c77b-0ef6-424b-9412-3b50598912b8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/60b3b462-6e3e-49cf-a1cd-b6c09cdb101b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/0cd264d2-c880-48a1-96d1-a694760a4531.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-6  TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7a18cec2-6efb-4ecb-a1fb-ffe5dbefd899.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-7 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/fe95ba53-c944-42be-80dd-a4ce80af6882.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-8 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/edbd098c-2d86-44bc-b2db-ffc363f9e1cc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-1 - SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/fe7c4711-6c3e-480d-aca9-3f1b308589f7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-2 - SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/856f55c2-c365-4ee1-beac-7d7ac2585ccf.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-3 - SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/ae72a6b9-9f1a-424b-a730-b1897abf3eee.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-4 - SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/fb349a19-814a-47b3-940e-1284f52c239d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-5 SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/559e745f-f99f-40f5-9008-620fed84891e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-6 SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b777d876-afbd-4ad7-be71-2225c15d78a3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-7 - SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/07a337be-f6f3-46ca-b2f7-a7a7244a6cd4.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-8 SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a2bbd00e-2054-4a82-9449-31011f133cd5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-9 SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/9e5b3582-ecd0-49ae-8f37-1f857e2905f8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 9  L-10  SHAURYA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/01af888a-33b6-4a9d-a6b6-7ab95d01712a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-1  SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/324909ae-76b7-496b-8432-1f243ef04f50.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-2  SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/0099756f-d3ca-4f12-827b-1b15af9be2d2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-3  SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/eb8161c2-3c0b-428e-84c2-4f26fe9b0ef0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-4 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/1bf8162d-9b40-45d4-aa41-1581119dea78.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-5 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/7401e5b7-05ce-44ac-a543-624bc25d87f3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-6 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/bc2c418b-9587-43b9-9c4a-745ceda04430.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-7 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/654999bc-3ec2-4a9a-afa2-bef9af0bd401.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-8 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/8584ac0e-0f1e-4a45-8291-cba9d4739273.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10 L-9 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/bb41cc03-9497-47f2-9d43-a51bae006493.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L- 10 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/b076a16e-aabe-488b-9bde-5c31166c1626.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-11-SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/5a49878a-5ba3-4577-b553-629afaa5bfc8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-12 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/c05e81ef-f98e-416f-a45a-73c87d83d062.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-13 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/4dd4a3b8-e135-4e6b-add4-d004392d295f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -10  L-14 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/11055122-e59c-438b-ab3a-4f584340aa8b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11  L-1 - SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/78cfe923-4a9e-42e0-ac02-696f6ab381c0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11 - L-2 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/89e78fd5-841f-4352-a10b-295c5f417a73.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11 - L-3 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/abcc3b82-4c6c-4b4c-b1b5-c96b61e619d6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11 - L-4 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/68ed3d88-f479-48bc-8ae9-5b7332e0cd6f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11  L-5 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/af101e86-62bc-4831-8a6f-388d5e7b6622.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11 - L-6 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/f14e663c-1b9d-41d0-a75b-1977dd96778f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11  L-7 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/893fc5b4-9bea-46cc-ad6f-826c14b26da4.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11  L-8 - SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/4b5e7b27-1684-4385-bec3-92042e3089e0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11  L-9 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/b3b44773-799d-40d5-855d-18a01924b587.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP -11  L-10 SHAURYA 2.0 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/83c96999-05c9-4b43-9b7b-61b3e90b9dae.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/93fa5dc3-a68d-4e28-9ff2-74a08eea49fc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2  ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a18297d4-ee7b-4b85-b763-0580569a6cf3.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/80a8b138-0a8e-4f4a-8400-c3d29893fb71.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/88d67eb9-3d65-41dd-8bcc-db1f3baf0376.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b30452c2-28d0-4dc2-91a6-dabd556f19a9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-6 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8069da05-4cac-4992-9d58-d8552174c5a1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-7 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b7507268-21d1-484a-98e9-38acca229ab4.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-8 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/35d2fc14-9251-43c3-a583-3f0b9366722d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-9 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b8e0c1a4-286a-49da-b675-52684b3cf577.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-10 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/be925923-f6fe-4592-bf0d-f569e87bba8b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-11 ALDEHYDES, KETONES & CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/68a8dcb6-c215-4330-960f-118ef24747e6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-1 SHAURYA 2.0 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/64d34225-32eb-4e3a-939a-042f42ec0116.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-2 SHAURYA 2.0 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2cab8758-80c2-4e86-9685-e912cfef55a1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-3 SHAURYA 2.0 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a01d0251-972d-4fe7-97be-2aa10be67838.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-4 SHAURYA 2.0 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/aa020ae0-a400-4361-909b-4b58f9ce9fe8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-5 SHAURYA 2.0 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/e34b4345-3867-4760-8e25-4f9d085656af.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-6 - SHAURYA 2.0 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a86d7603-6dc6-4c35-a03d-d8bd557ddc28.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) CLASS 12 CHAP - 13  L-7 -SHAURYA 20 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/997259bc-a429-408a-9916-e4009353099f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/87c4603c-6c94-44d1-b90a-051a03abd2eb.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/ad15aad2-a96a-42b1-ae1b-22ddd089c611.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/70709d04-227b-415f-9d04-87ea177f550d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/4e269a1a-b26b-4468-a74f-bba8af184930.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/790bd7d1-d261-46f7-968c-60886bd0e5c9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-6 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/fd9c6731-a3b5-4df4-ac00-db55f28a2d62.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b51304df-64fe-40de-9d7b-bb2ddd637272.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2  INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/4f301930-69c6-437e-b33a-dd51e612c7b9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7b386e39-852f-4b59-b133-d4b24f628743.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-4 INTRODUCTION TO POLYMER  CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/57b34357-5e27-4cae-a210-9f503a202b42.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-5 INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/dc467011-764b-4e8d-b294-ef97324263ff.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-1 GREEN CHEMISTRY AND NANOCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/aa3aeab5-8e13-47fc-a7b0-cf54943f8721.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-2 GREEN CHEMISTRY AND NANOCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d9e857c4-eace-4ad4-ac79-bd9ed3de2dfd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(DETAILED LECTURE PDF NOTES - SHAURYA 2.0) L-3 GREEN CHEMISTRY AND NANOCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/85e88d0f-3873-4e8f-a757-cff6c12c7343.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(4. CHEMICAL THERMODYNAMICS)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(4. CHEMICAL THERMODYNAMICS) L-1 CHEMICAL THERMODYNAMIC PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a13a9070-bf48-4432-ae45-f1119757dea1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(4. CHEMICAL THERMODYNAMICS) L-2 CHEMICAL THERMODYNAMIC PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a5f8f3d4-e9d7-4338-ab32-9ccc727edc60.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(4. CHEMICAL THERMODYNAMICS) L-3 CHEMICAL THERMODYNAMICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/badaf725-704b-4833-a8f4-a7038187ee3a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(4. CHEMICAL THERMODYNAMICS) L-4 CHEMICAL THERMODYNAMICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/98fa2464-792d-4b9f-a864-d868abed0515.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(4. CHEMICAL THERMODYNAMICS) L-5 CHEMICAL THERMODYNAMICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/20473e4a-8854-4895-93a2-7f8500b5149b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(4. CHEMICAL THERMODYNAMICS) L-6 CHEMICAL THERMODYNAMICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/1d97446f-d21e-4b9c-9b2c-456a81157864.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(THEORY TEST)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(THEORY TEST) TEST - CHAPTER 10 - 20 MARKS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3527faf3-75c3-469d-a7b0-a30b7cbc21b9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(THEORY TEST) TEST - CHAPTER 10 - 20 MARKS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/413a0c94-d0b7-43d2-b054-336d6f76835b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(THEORY TEST) TEST - CHAPTER 14 - 20 MARKS.pdf PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/369832/3cdcfb41-4fcc-42a0-8484-3d5a3b28eded.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(Live LECTURE PDF NOTES SHAKTI BATCH)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 COORDINATION COMPOUNDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/cd305919-b142-4b3e-a45b-a8df0e73f268.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L- 2 COORDINATION COMPOUNDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/f0762d7a-2421-4f30-8d2f-bf35db6b58b8.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L- 3 COORDINATION COMPOUNDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/bb0630da-e688-43f6-a807-4c7c3ac5bacd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 IONIC EQUALIBRIA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/70e6a390-cc0d-44f1-9aba-cddfa938ff74.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 IONIC EQUALIBRIA PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/ee8797e5-cc95-4275-983f-56eeca7aef43.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L- 1 CHEMICAL KINETICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/4bf8ce2c-1ab8-40f2-84ad-de525f0d9110.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L- 2 CHEMICAL KINETICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/26b8fd4b-2f9a-4c1f-8332-bb184278e0d4.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.10  L-1  HALOGEN DERIVATIVES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/0d0f8b4c-5ac5-4451-a0d6-ad333bbdd20b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.10  L-2  HALOGEN DERIVATIVES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/dc3e648d-f09f-4e48-a4f1-4a8c0ce9abea.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.10  L-3  HALOGEN DERIVATIVES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/612f149c-c0bd-42b3-9d03-7af2bc5d56d1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.11 - L-1 - SHAKTI BATCH PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/ff598382-e255-46f2-98b5-fdb334c0caca.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.11 - L-2 - SHAKTI BATCH PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a4c69b64-3e80-4517-8fcb-2b841f8cb217.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.11 - L-3 - SHAKTI BATCH PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/c4757e65-4380-413a-ac43-b1c70dea16c0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) CH. No.11 - L-4 - SHAKTI BATCH PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/777d52b7-abdc-4ad6-a289-beebec89634a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L -1 AMINES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/88c2f15c-da3a-4c27-835c-7877e1b48e84.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 AMINES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/f42e365f-7e28-4351-a203-1ca2a757c6c6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/73d3d272-1b94-47b5-9688-29aff6e28b5f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/c160703b-988d-4a57-9d33-ac9c9de94fc2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-3 TRANSITION AND INNER TRANSITION ELEMENTS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/3267217e-64d0-4ce4-8027-7d11440f1039.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 1 ALDEHYDES, KETONES AND CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/cf689460-215e-4f09-bf3f-61570c05028d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 2 ALDEHYDES, KETONES AND CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8bc8ee43-713d-4142-8d5c-0f54fb81939e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 3 ALDEHYDES, KETONES AND CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/55dc5be5-3242-477c-af06-1c83aa26e2e2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 4 ALDEHYDES, KETONES AND CARBOXYLIC ACIDS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2c967bb8-6b2d-4885-befb-6d9cc03a1a09.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/125c5229-e290-40d5-8f99-99ad57f0772d.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d9cee5b4-db5b-40a0-8cc1-45b76eaa55a2.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-3 BIOMOLECULES PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/e2bb3d1f-1aed-4f56-aa23-bc1e79c0abee.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a569d97d-541f-42e4-863f-5896356f5c4f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/9bb2f651-57b8-45f9-93d9-c9f6a8bcdf99.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-3 INTRODUCTION TO POLYMER CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/28bc3c15-daa3-421b-883e-dc7d528127de.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 GREEN CHEMISTRY AND NANOCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/91901ab4-1eba-49d5-a04f-066fb862a961.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 GREEN CHEMISTRY AND NANOCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/3a0b6b3a-53c9-44a7-9d70-c317b2171b5c.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 1 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2dde9690-4d5d-4a89-a9ea-b19b78eec6c6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 2 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/f9936330-7bbe-4852-8e31-649782faae8e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L - 3 SOLID STATE PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/024f9bf0-f238-4c05-b073-125a7f587aa7.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/ebb2e634-5754-4d3e-b3ca-c19427fda8fd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 SOLUTIONS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/d9b30a11-ac58-4bcd-9ee1-a2560ff321b6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 CHEMICAL THERMODYNAMICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/99f700e5-6790-4860-91de-5785c1bcb799.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 CHEMICAL THERMODYNAMICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/46e84e77-7137-4a18-8983-0ba606a1aa7b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2bc1d87a-ad81-4947-80a4-7fc1fd1b9431.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/55876307-489f-4bdb-bb13-a420d19fc55a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-3 ELECTROCHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/ad60ec26-c509-47c3-a702-9d6430016085.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-1 Elements of group 16, 17 and 18 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/5364bf5c-5f8f-4b8e-8614-59a39764eedd.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(Live LECTURE PDF NOTES SHAKTI BATCH) L-2 Elements of group 16, 17 and 18 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/e0eb2a70-861d-4780-bf48-d553738f4393.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(LIVE RECORDED LECTURE SHAKTI BATCH)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+        <button type="button" class="collapsible">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 1 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/c0d4f9e6-651d-465b-ad16-cde42dfd2ad6.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 2 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/8a7ac7a6-e216-4b80-9226-b7b485ae11aa.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 3 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2f0c17b0-f873-401d-b833-95e2b1f66966.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 4 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7aa273e2-49ee-4e12-a42e-0c6ef0e01d53.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 5 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/b474c565-576f-4a74-a826-07dc355dc4f0.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 6 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/33091036-e2fa-4942-a022-48ef2a683252.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 7 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/732d442c-72ff-42da-9010-4d2a630ea148.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 8 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/36f81f1f-b878-409e-9da1-ddac73f077e1.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 9 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/3a4a8bdc-950f-4103-8713-9e8d6b390350.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 10 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/588c7a12-b97d-418e-83eb-49684e6c46af.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 11 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/84c8923d-62ac-45c0-80c0-1588eec2c005.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 12 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/0b92402f-4977-4439-9cb4-d4118e6799cc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 13 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/cebf41a3-fe40-430d-b36c-78cb27a64e33.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 14 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/29417a07-f54f-4ae7-b8d2-4c18ec05c23a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 15 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/4802e131-de8a-429b-bac0-916ef213706a.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(QUESTION BANK FOR PRACTICE OF HSC BOARD EXAM) CHAPTER 16 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/fa02969b-2eb7-44d4-a0a0-70397b7b1d51.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(SHAKTI BATCH)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 1 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/516333e0-607d-4e03-bccb-51ca4c79e318.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 2 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/7ea69b21-c13e-4c7b-b343-e1f3a885db39.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 3 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/c256099e-c36c-46cc-94e0-d5a75aeaa858.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 4 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/64f3b8c7-1660-490b-b55d-274e86aa3757.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 5 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/6af1fa2b-0ef5-48d1-9663-acbdb8192612.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 6 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/92b41c68-da95-4790-a695-54f24fea773e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 7 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/410e91dd-73c7-4bc3-8b5c-26cdc6dd9bdf.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 8 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/5caa921e-3bb7-471e-b0b3-f081d05439d9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 9 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/e252b352-bc09-4f60-a42a-04dd716b7cbe.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 10 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/bbeae526-0ec4-4162-8b2c-4660dd0bc1e5.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 11 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/239ea1ba-5fd2-4f36-aa70-cc64f7b22783.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 12 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/dbf30d68-ce8c-4ab6-ba98-adef60b71628.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 13 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/2ee61678-7fa5-4d76-8eab-0f07f63ddaa9.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 14 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/92ee9d3c-ef63-46d4-8d6e-92e3ee76b4cb.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 15 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/a6fe0396-8dbf-491d-9456-7b6393f8f775.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(SHAKTI BATCH) CHAPTER 16 PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/single/efpni/75fc35c9-f9ae-4026-a3d0-2bd351a7f488.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(BASIC IN CHEMISTRY )</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(BASIC IN CHEMISTRY ) BASIC IN CHEMISTRY L-1 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/ea3b5dd2-ea1c-4184-8a8b-10ef42427505.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(BASIC IN CHEMISTRY ) BASIC IN CHEMISTRY L-2 PDF</span>
+            <a href="https://cdn-wl-assets.classplus.co/production/single/efpni/6467abc3-de02-412c-b05a-5de156e609af.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(TEXTBOOK)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 11TH CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/973a84e8-8a20-4213-a0d4-5e9e83287a2e.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 12TH CHEMISTRY PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/52a80ec7-3fe6-44dc-b583-e52dde12737b.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 11TH PHYSICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/0fd040d4-5373-475a-b89d-23f2fc989889.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 12TH PHYSICS PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/e0df57e4-a5e8-47ff-b025-1b2c0b1a2105.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 11TH MATHS - I PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/9b21f5e1-64d3-4007-8d4b-3b19e0271c64.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 11TH MATHS - II PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/e6e625cc-58ed-43d4-9518-83d20cbdb530.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 12TH MATHS - I PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/002efb9d-32d1-4b49-9cc0-f962368d28fc.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        <div class="pdf">
+            <span class="pdf_name">(TEXTBOOK) CLASS 12TH MATHS - II PDF</span>
+            <a href="https://ali-cdn-wl-assets.classplus.co/production/369832/3765631f-5842-4f3c-a6bd-0b0ab77a1f1f.pdf" target="_blank" class="btn">Click here to download PDF</a>
+        </div>
+        
+        </div>
+        
+        <button type="button" class="collapsible">(Live)</button>
+        <div class="content">
+            <p><i>Videos are restricted for this course.</i></p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p>Total Resources: 705 | Total Videos: 318</p>
+        <p>Made with ❤️ by <a href="https://telegram.me/Blaster_fazxe" target="_blank">ArzanHashmi</a></p>
+        <p><b>If any issues or queries &#128511;</b><a href="https://t.me/TryGoogle" target="_blank"> Click me!</a></p>
+    </div>
+    <script>
+        // Dark mode toggle
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            darkModeToggle.innerHTML = document.body.classList.contains('dark-mode') ? 
+                '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        });
+
+        // Collapsible sections
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
